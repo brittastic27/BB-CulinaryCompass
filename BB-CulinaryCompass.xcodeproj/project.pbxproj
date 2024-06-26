@@ -11,6 +11,8 @@
 		50840D532C2B300E005C1491 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50840D522C2B300E005C1491 /* ContentView.swift */; };
 		50840D552C2B3017005C1491 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50840D542C2B3017005C1491 /* Assets.xcassets */; };
 		50840D582C2B3017005C1491 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50840D572C2B3017005C1491 /* Preview Assets.xcassets */; };
+		50840D612C2C5ED4005C1491 /* SouthAmerica.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50840D602C2C5ED4005C1491 /* SouthAmerica.swift */; };
+		50840D632C2C5F12005C1491 /* theStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50840D622C2C5F12005C1491 /* theStates.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		50840D522C2B300E005C1491 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		50840D542C2B3017005C1491 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50840D572C2B3017005C1491 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		50840D602C2C5ED4005C1491 /* SouthAmerica.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SouthAmerica.swift; sourceTree = "<group>"; };
+		50840D622C2C5F12005C1491 /* theStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = theStates.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				50840D502C2B300E005C1491 /* BB_CulinaryCompassApp.swift */,
 				50840D522C2B300E005C1491 /* ContentView.swift */,
+				50840D602C2C5ED4005C1491 /* SouthAmerica.swift */,
+				50840D622C2C5F12005C1491 /* theStates.swift */,
 				50840D542C2B3017005C1491 /* Assets.xcassets */,
 				50840D562C2B3017005C1491 /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50840D612C2C5ED4005C1491 /* SouthAmerica.swift in Sources */,
 				50840D532C2B300E005C1491 /* ContentView.swift in Sources */,
 				50840D512C2B300E005C1491 /* BB_CulinaryCompassApp.swift in Sources */,
+				50840D632C2C5F12005C1491 /* theStates.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

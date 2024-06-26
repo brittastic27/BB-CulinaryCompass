@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             ZStack {
-                Color(.systemTeal)
+                Color(.systemBrown)
                     .ignoresSafeArea()
                 ScrollView {
                     VStack {
@@ -23,18 +23,25 @@ struct ContentView: View {
                             .cornerRadius(15)
                             .shadow(radius: 15)
                             .padding()
-                        
                         VStack {
                             HStack (alignment: .top){
                                 VStack {
-                                Text("Chivito")
-                                    .font(.title2)
-                                    .fontWeight(.semibold)
-                                    .padding()
+                                    Text("Chivito")
+                                            .font(.title)
+                                            .foregroundColor(.black)
+                                            .fontWeight(.semibold)
+                                            .padding()
                                     Image("chivito")
-                                      .resizable()
-                                     .frame(width: 100, height: 100)
-                                     .cornerRadius(15)
+                                        .resizable(resizingMode: .stretch)
+                                        .aspectRatio(contentMode: .fit)
+                                        .cornerRadius(15)
+                                    NavigationLink (destination: SouthAmerica()) {
+                                        Text("Uruguay📍")
+                                            .font(.title2)
+                                            .background(.brown)
+                                            .foregroundColor(.black)
+                                            .padding()
+                                    }
                                 }
                                 Text("A popular Uruguayan sandwich made with thinly sliced beef from the asado, or barbecue. You then add ham, melted cheese, lettuce, tomato, mayo, and a fried egg, then serve with French fries.")
                                     .font(.subheadline)
@@ -42,17 +49,24 @@ struct ContentView: View {
                             }
                             
                             
-                            
                             HStack (alignment: .top){
                                 VStack {
-                                Text("Bolon de Verde")
-                                    .font(.title2)
-                                    .fontWeight(.semibold)
-                                    .padding()
+                                    Text("Bolon de Verde")
+                                        .font(.title2)
+                                        .foregroundColor(.black)
+                                        .fontWeight(.semibold)
+                                        .padding()
                                     Image("bolon")
-                                      .resizable()
-                                     .frame(width: 100, height: 100)
-                                     .cornerRadius(15)
+                                        .resizable(resizingMode: .stretch)
+                                        .aspectRatio(contentMode: .fit)
+                                        .cornerRadius(15)
+                                    NavigationLink (destination: SouthAmerica()) {
+                                        Text("Ecuador📍")
+                                            .font(.title2)
+                                            .background(.brown)
+                                            .foregroundColor(.black)
+                                            .padding()
+                                    }
                                 }
                                 Text("This Ecuadorian breakfast dish is a carb-rich ball of mashed green plantain filled with cheese, bacon, or pork crackling. It’s deep fried until crispy and served with fresh fruit, such as papaya or guava.")
                                     .font(.subheadline)
@@ -73,16 +87,25 @@ struct ContentView: View {
                             .cornerRadius(15)
                             .shadow(radius: 15)
                             .padding()
+                        
                         HStack (alignment: .top){
                             VStack {
-                            Text("Philly Cheese steak")
-                                .font(.title2)
-                                .fontWeight(.semibold)
-                                .padding()
+                                    Text("Philly Cheese Steak")
+                                        .font(.title2)
+                                        .foregroundColor(.black)
+                                        .fontWeight(.semibold)
+                                        .padding()
                                 Image("cheesesteak")
-                                  .resizable()
-                                 .frame(width: 100, height: 100)
-                                 .cornerRadius(15)
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .cornerRadius(15)
+                                NavigationLink (destination: theStates()) {
+                                    Text("Philadelphia, PA📍")
+                                        .font(.title2)
+                                        .background(.brown)
+                                        .foregroundColor(.black)
+                                        .padding()
+                                }
                             }
                             Text("What makes a Philly cheesesteak special is the beef, and the way that it combines with the cheese, onions, and bread to become a cohesive whole that’s better than the sum of its parts.")
                                 .font(.subheadline)
